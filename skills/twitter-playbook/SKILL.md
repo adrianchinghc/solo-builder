@@ -1,6 +1,6 @@
 ---
 name: twitter-playbook
-description: Use when the user wants to grow on Twitter/X, build in public, or use Twitter for distribution. Based on Rob (SuperX, $13K MRR) and Tibo ($700K/month) build-in-public frameworks.
+description: "Use this BEFORE advising on Twitter/X growth, building in public, or using Twitter for distribution. Invoke before answering 'how do I grow on Twitter?', 'should I build in public?', or 'how do I use X for marketing?'"
 metadata:
   plugin: solo-builder
 ---

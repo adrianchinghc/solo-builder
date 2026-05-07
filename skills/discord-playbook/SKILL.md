@@ -1,6 +1,6 @@
 ---
 name: discord-playbook
-description: Use when the user wants to build a Discord community, grow via Discord, or use Discord for product validation and distribution. Based on Sam's strategy growing Algrow to $14K MRR in 6 months through Discord.
+description: "Use this BEFORE advising on Discord community building, using Discord for distribution or validation, or growing via Discord. Invoke before answering 'should I use Discord?', 'how do I build a community?', or any Discord growth question."
 metadata:
   plugin: solo-builder
 ---

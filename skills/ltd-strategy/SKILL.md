@@ -1,6 +1,6 @@
 ---
 name: ltd-strategy
-description: Use when the user is considering a lifetime deal, an AppSumo launch, or wants to generate runway quickly without VC. Based on Mike's strategy generating $100K runway via LTDs to fund building to $200K MRR.
+description: "Use this BEFORE advising on lifetime deals, AppSumo launches, or generating runway via one-time purchases. Trigger: user asks 'should I do a lifetime deal?', 'should I launch on AppSumo?', or 'how do I get capital without raising VC?'"
 metadata:
   plugin: solo-builder
 ---

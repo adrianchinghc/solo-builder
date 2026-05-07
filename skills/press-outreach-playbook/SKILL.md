@@ -1,6 +1,6 @@
 ---
 name: press-outreach-playbook
-description: Use when the user wants press coverage, needs to pitch journalists, or wants to get featured in tech media. Covers journalist targeting, the 2-sentence pitch format, controversy strategy, and follow-up timing.
+description: "Use this BEFORE advising on getting press coverage, pitching journalists, or getting featured in tech media. Invoke before answering 'how do I get press?', 'how do I pitch journalists?', or 'how do I get media coverage?'"
 metadata:
   plugin: solo-builder
 ---

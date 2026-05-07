@@ -1,6 +1,6 @@
 ---
 name: idea-selection
-description: Use when the user is looking for product ideas, wants to validate an idea before building, or needs help deciding what to build next. Based on patterns from 19 founder case studies — picks ideas with distribution built in.
+description: "You MUST invoke this before helping a user pick a product idea, validate an idea, or decide what to build next. Use before answering 'what should I build?', 'is this a good idea?', or 'how do I validate this?'. Do NOT give idea feedback without running this first."
 metadata:
   plugin: solo-builder
 ---

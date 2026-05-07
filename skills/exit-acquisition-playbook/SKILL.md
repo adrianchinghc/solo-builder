@@ -1,6 +1,6 @@
 ---
 name: exit-acquisition-playbook
-description: Use when the user wants to sell their product, has received an acquisition offer, wants to know their valuation multiple, or is considering using a broker. Covers buyer types, negotiation, due diligence, and post-sale earnouts.
+description: "Use this BEFORE advising on selling a product, evaluating an acquisition offer, or discussing exit valuation. Trigger: user mentions selling their company, acquisition, exit strategy, valuation multiples, Acquire.com, Flippa, or has received an offer."
 metadata:
   plugin: solo-builder
 ---

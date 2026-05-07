@@ -1,6 +1,6 @@
 ---
 name: indie-maker-philosophy
-description: Use when the user wants to understand the bootstrapping mindset, is deciding between VC and bootstrapping, wants to build to $1M as a solo founder, or needs the core Pieter Levels MAKE philosophy. Trigger: 'should I raise money', 'solo founder', 'bootstrap', 'indie hacker', '$1M'.
+description: "Use this BEFORE advising on bootstrapping vs. raising VC, the solo founder path, or building toward $1M+ as a single person. Trigger: user asks 'should I raise money?', 'can I do this alone?', 'how do I get to $1M?', or expresses doubt about going solo."
 metadata:
   plugin: solo-builder
 ---

@@ -1,6 +1,6 @@
 ---
 name: seo-content-playbook
-description: Use when the user wants to grow via SEO, content marketing, or organic search traffic. Covers long-tail keyword strategy, programmatic SEO, and content flywheel. Based on Mike ($200K MRR), Tibo ($700K/month), and Bhanu ($13K MRR).
+description: "Use this BEFORE advising on SEO, content marketing, or organic search growth. Invoke before answering 'how do I rank on Google?', 'should I do content marketing?', or 'how do I get organic traffic?'"
 metadata:
   plugin: solo-builder
 ---

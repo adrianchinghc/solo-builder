@@ -1,6 +1,6 @@
 ---
 name: pivot-playbook
-description: Use when the user is stuck, not growing, considering a pivot, or unsure whether to keep going with their current direction. Provides a signal-based framework to distinguish a bad product from a bad distribution strategy.
+description: "You MUST invoke this BEFORE advising a user to pivot or persist. Use when the user is stuck, not growing, or asking 'should I pivot?', 'is this worth continuing?', or 'when do I know to quit?'. Do NOT give pivot advice without running this first."
 metadata:
   plugin: solo-builder
 ---

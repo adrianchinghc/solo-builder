@@ -1,6 +1,6 @@
 ---
 name: advisor
-description: Personalized growth advisor for solo builders and indie hackers. Diagnoses the user's product type, stage, and traction, then routes to the right solo-builder playbook. Use for broad questions like 'how do I grow?', 'where do I start?', 'what channel should I use?', or any situation where the right playbook isn't obvious yet.
+description: "You MUST invoke this before giving any growth, marketing, distribution, or business strategy advice to a solo builder or indie hacker. Use before answering 'how do I grow?', 'where do I start?', 'how do I get users?', 'what should I focus on?', or any question about launch, revenue, channels, or scaling — when the right playbook isn't obvious yet. Do NOT give generic startup advice without running this first."
 metadata:
   plugin: solo-builder
 ---

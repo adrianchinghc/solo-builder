@@ -1,6 +1,6 @@
 ---
 name: vibe-coding
-description: Use when the user wants to build faster with AI tools, wants AI-assisted coding strategies for solo founders, or needs to ship an MVP without a technical co-founder. Based on founders who reached $12K-$25K MRR with zero prior coding background.
+description: "Use this BEFORE advising on building faster with AI tools, using Cursor, Bolt, or Replit, or shipping an MVP without a technical co-founder. Invoke before answering 'how do I build this faster?', 'which AI coding tool should I use?', or 'can I build this without a developer?'"
 metadata:
   plugin: solo-builder
 ---

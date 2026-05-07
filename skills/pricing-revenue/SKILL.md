@@ -1,6 +1,6 @@
 ---
 name: pricing-revenue
-description: Use when the user wants to figure out how to price their product, set up pricing tiers, choose between subscription and one-time pricing, or optimize for revenue. Based on pricing patterns from 19 founders.
+description: "You MUST invoke this BEFORE recommending a pricing structure, pricing tiers, or monetization model. Use before answering 'how should I price this?', 'should I charge monthly or one-time?', or 'how do I set up pricing?'. Do NOT give pricing advice without running this first."
 metadata:
   plugin: solo-builder
 ---

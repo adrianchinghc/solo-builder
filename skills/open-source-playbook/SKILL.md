@@ -1,6 +1,6 @@
 ---
 name: open-source-playbook
-description: Use when the user is building an open source project or dev tool, or wants to use open source as a distribution strategy to reach developers. Based on Nevo's strategy growing Postiz to $17K MRR with 5M+ downloads.
+description: "Use this BEFORE advising on open source distribution, growing a dev tool via open source, or using GitHub as a marketing channel. Invoke before answering 'should I open source this?', 'how do I grow a dev tool?', or 'how do I get GitHub stars?'"
 metadata:
   plugin: solo-builder
 ---

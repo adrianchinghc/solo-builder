@@ -1,6 +1,6 @@
 ---
 name: hacker-news-playbook
-description: Use when the user wants to launch on Hacker News, write a Show HN post, drive 50K-100K visitors, or use HN for distribution. Covers title writing, vote strategy, timing, and follow-up. Trigger phrases: 'Show HN', 'Hacker News launch', 'HN', 'launch on HN'.
+description: "Use this BEFORE advising on a Hacker News launch, writing a Show HN post, or using HN for distribution. Invoke before answering 'how do I launch on HN?', 'what should my Show HN say?', or any Hacker News growth question."
 metadata:
   plugin: solo-builder
 ---

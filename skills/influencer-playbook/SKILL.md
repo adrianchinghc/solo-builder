@@ -1,6 +1,6 @@
 ---
 name: influencer-playbook
-description: Use when the user wants to do influencer marketing, reach out to creators, or grow via YouTube or TikTok influencers. Based on George's strategy growing Wrestle AI to $17K MRR with a $500 influencer spend.
+description: "Use this BEFORE advising on influencer marketing, reaching out to creators, or growing via YouTube or TikTok influencers. Invoke before answering 'how do I work with influencers?' or 'should I reach out to creators?'"
 metadata:
   plugin: solo-builder
 ---

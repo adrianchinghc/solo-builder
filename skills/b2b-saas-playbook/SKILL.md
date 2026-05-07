@@ -1,6 +1,6 @@
 ---
 name: b2b-saas-playbook
-description: Use when the user is building or growing a B2B SaaS product and wants a full playbook covering early customers, pricing, growth channels, onboarding, and retention. Combines Mike's 10-step and Tibo's 12-step frameworks to $100K+ MRR.
+description: "You MUST invoke this before giving growth or go-to-market advice for a B2B SaaS product. Use before recommending channels, pricing, or sales strategies for software sold to businesses. Do NOT give B2B growth advice without running this first."
 metadata:
   plugin: solo-builder
 ---

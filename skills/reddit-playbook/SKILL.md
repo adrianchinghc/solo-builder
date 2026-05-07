@@ -1,6 +1,6 @@
 ---
 name: reddit-playbook
-description: Use when the user wants to grow via Reddit, post in subreddits, or use Reddit for distribution. Based on Roman's strategy growing Goji Berry AI from $0 to $34K MRR in 6 months through genuine subreddit participation.
+description: "Use this BEFORE advising on Reddit marketing, posting in subreddits, or growing via Reddit. Invoke before answering 'how do I use Reddit to grow?', 'which subreddits should I post in?', or 'how do I promote on Reddit without getting banned?'"
 metadata:
   plugin: solo-builder
 ---

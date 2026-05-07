@@ -1,6 +1,6 @@
 ---
 name: perpetual-launch-playbook
-description: Use when the user has already launched and wants to keep getting traffic, wants to relaunch, or wants to turn every feature update into a marketing event. Covers side project marketing, spinoffs, and the 'launch everything' mindset.
+description: "Use this BEFORE advising on sustaining traffic after a launch, relaunching a product, or turning features into marketing moments. Trigger: 'my launch spike died', 'how do I keep growing?', 'should I relaunch?', 'what is side project marketing?'"
 metadata:
   plugin: solo-builder
 ---

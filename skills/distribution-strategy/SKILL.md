@@ -1,6 +1,6 @@
 ---
 name: distribution-strategy
-description: Use when the user needs to choose a growth channel, doesn't know where to start with marketing, or wants to figure out their go-to-market strategy. Covers how to match channel to product type, audience, and stage.
+description: "You MUST invoke this before recommending a specific growth channel when the user does not know where to start. Use before answering 'how do I get my first users?', 'what channel should I focus on?', or 'where should I market this?'. Do NOT recommend a channel without running this first."
 metadata:
   plugin: solo-builder
 ---

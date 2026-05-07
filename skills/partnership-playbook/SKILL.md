@@ -1,6 +1,6 @@
 ---
 name: partnership-playbook
-description: Use when the user wants to grow via partnerships, integrate with other products, or find distribution through established platforms. Based on Hassam's strategy reaching $25K MRR in 90 days by trading equity for instant distribution.
+description: "Use this BEFORE advising on partnerships, integrations with other products, or distribution through established platforms. Trigger: 'how do I find partners?', 'should I integrate with X?', 'how do I get distribution without ads?'"
 metadata:
   plugin: solo-builder
 ---

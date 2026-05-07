@@ -1,6 +1,6 @@
 ---
 name: automation-playbook
-description: Use when the user wants to automate their product, remove themselves from operations, set up cron jobs or Zapier workflows, build a bus-proof business, or scale without hiring. Trigger phrases: 'automate my product', 'remove myself', 'build robots', 'run without me', 'hire contractors', 'delegation', 'passive income'.
+description: "Use this BEFORE advising on automation, removing the founder from operations, cron jobs, Zapier workflows, or building a business that runs without the founder. Trigger phrases: 'automate', 'remove myself', 'build robots', 'passive income', 'bus factor', 'hire contractors', 'delegate', 'productize'."
 metadata:
   plugin: solo-builder
 ---

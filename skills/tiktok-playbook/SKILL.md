@@ -1,6 +1,6 @@
 ---
 name: tiktok-playbook
-description: Use when the user wants to grow via TikTok, create short-form video content, or use TikTok for app distribution. Based on Louis (GlowUp, $800K/year) and Steven (PuffCount, $1M+) content-first strategies.
+description: "Use this BEFORE advising on TikTok growth, short-form video strategy, or using TikTok for app distribution. Invoke before answering 'how do I grow on TikTok?', 'should I make TikTok videos?', or 'how do I go viral?'"
 metadata:
   plugin: solo-builder
 ---

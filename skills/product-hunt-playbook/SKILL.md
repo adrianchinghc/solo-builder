@@ -1,6 +1,6 @@
 ---
 name: product-hunt-playbook
-description: Use when the user wants to launch on Product Hunt, prepare a PH launch, or get featured on PH. Covers timing, taglines, GIFs, comment strategy, and the journalist trickle effect that drives 50K+ post-launch visitors.
+description: "Use this BEFORE advising on a Product Hunt launch, preparing a PH submission, or getting PH upvotes. Invoke before answering 'how do I launch on Product Hunt?', 'when should I launch on PH?', or 'how do I get featured?'"
 metadata:
   plugin: solo-builder
 ---

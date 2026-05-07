@@ -1,6 +1,6 @@
 ---
 name: onboarding-playbook
-description: Use when the user wants to improve their onboarding flow, reduce churn from activation issues, or improve trial-to-paid conversion. Based on George ($17K MRR) and Connor ($20K MRR) onboarding frameworks.
+description: "Use this BEFORE advising on improving onboarding, reducing activation churn, or converting free users to paid. Trigger: 'why aren't users converting?', 'how do I improve onboarding?', 'how do I reduce churn?', 'why do users drop off?'"
 metadata:
   plugin: solo-builder
 ---

@@ -1,6 +1,6 @@
 ---
 name: mobile-app-playbook
-description: Use when the user is building or growing a mobile or consumer app and wants a full growth playbook. Combines Louis, George, Steven, and Connor's frameworks for content-first mobile app distribution.
+description: "You MUST invoke this before giving growth or go-to-market advice for a mobile or consumer app. Use before recommending channels, ASO, or distribution tactics for iOS or Android apps. Do NOT give mobile growth advice without running this first."
 metadata:
   plugin: solo-builder
 ---
