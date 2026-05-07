@@ -123,7 +123,6 @@ The advisor skill reads your `README.md`, `package.json`, and other project file
 
 Forked from [@drewautomates](https://x.com/drewautomates)' [solo-builder-playbook-skill](https://github.com/drewautomates/solo-builder-playbook-skill), which compiled strategies from 19 founder interviews on [Starter Story](https://www.youtube.com/@starterstory). Content analysis powered by [Noverload](https://noverload.com).
 
-Extended with insights from **Pieter Levels** ([MAKE book](https://readmake.com)) — covering the indie maker philosophy, automation-first thinking, perpetual launching, and the path from side project to $1M+ as a solo founder.
 
 ## License
 
