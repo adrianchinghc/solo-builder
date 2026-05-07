@@ -1,6 +1,8 @@
 ---
-title: Twitter/X Building in Public Playbook
-description: Growing SaaS through Twitter from Rob (SuperX, $13K MRR) and Tibo ($700K/month)
+name: twitter-playbook
+description: Use when the user wants to grow on Twitter/X, build in public, or use Twitter for distribution. Based on Rob (SuperX, $13K MRR) and Tibo ($700K/month) build-in-public frameworks.
+metadata:
+  plugin: solo-builder
 ---
 
 # Twitter/X Building in Public Playbook

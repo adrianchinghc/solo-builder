@@ -1,6 +1,8 @@
 ---
-title: Distribution Strategy
-description: Choosing the right growth channel based on your product type, audience, and stage
+name: distribution-strategy
+description: Use when the user needs to choose a growth channel, doesn't know where to start with marketing, or wants to figure out their go-to-market strategy. Covers how to match channel to product type, audience, and stage.
+metadata:
+  plugin: solo-builder
 ---
 
 # Distribution Strategy: The #1 Thing That Matters

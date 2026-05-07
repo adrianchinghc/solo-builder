@@ -1,6 +1,8 @@
 ---
-title: Idea Selection
-description: How to pick app ideas that can't fail, based on 19 founder case studies
+name: idea-selection
+description: Use when the user is looking for product ideas, wants to validate an idea before building, or needs help deciding what to build next. Based on patterns from 19 founder case studies — picks ideas with distribution built in.
+metadata:
+  plugin: solo-builder
 ---
 
 # Idea Selection: Pick Proven, Not Novel

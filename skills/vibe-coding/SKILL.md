@@ -1,6 +1,8 @@
 ---
-title: Vibe Coding
-description: Building production apps with AI tools from founders who made $12K-$25K MRR with zero coding background
+name: vibe-coding
+description: Use when the user wants to build faster with AI tools, wants AI-assisted coding strategies for solo founders, or needs to ship an MVP without a technical co-founder. Based on founders who reached $12K-$25K MRR with zero prior coding background.
+metadata:
+  plugin: solo-builder
 ---
 
 # Vibe Coding: Building Apps Without a CS Degree

@@ -1,6 +1,8 @@
 ---
-title: The B2B SaaS Playbook
-description: Complete playbook from idea to $100K+ MRR, combining Mike's 10-step and Tibo's 12-step frameworks
+name: b2b-saas-playbook
+description: Use when the user is building or growing a B2B SaaS product and wants a full playbook covering early customers, pricing, growth channels, onboarding, and retention. Combines Mike's 10-step and Tibo's 12-step frameworks to $100K+ MRR.
+metadata:
+  plugin: solo-builder
 ---
 
 # The B2B SaaS Playbook: Idea to $100K+ MRR

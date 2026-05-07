@@ -1,6 +1,8 @@
 ---
-title: Onboarding Optimization
-description: How to convert free users to paying customers, from George ($17K MRR) and Connor ($20K MRR)
+name: onboarding-playbook
+description: Use when the user wants to improve their onboarding flow, reduce churn from activation issues, or improve trial-to-paid conversion. Based on George ($17K MRR) and Connor ($20K MRR) onboarding frameworks.
+metadata:
+  plugin: solo-builder
 ---
 
 # Onboarding Optimization

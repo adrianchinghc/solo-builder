@@ -1,6 +1,8 @@
 ---
-title: Reddit Marketing Playbook
-description: Step-by-step Reddit growth strategy from Roman (Goji Berry AI, $0 to $34K MRR in 6 months)
+name: reddit-playbook
+description: Use when the user wants to grow via Reddit, post in subreddits, or use Reddit for distribution. Based on Roman's strategy growing Goji Berry AI from $0 to $34K MRR in 6 months through genuine subreddit participation.
+metadata:
+  plugin: solo-builder
 ---
 
 # Reddit Marketing Playbook

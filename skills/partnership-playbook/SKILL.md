@@ -1,6 +1,8 @@
 ---
-title: Partnership Distribution Playbook
-description: Trading equity for instant distribution from Hassam (LaunchFast, $25K MRR in 90 days)
+name: partnership-playbook
+description: Use when the user wants to grow via partnerships, integrate with other products, or find distribution through established platforms. Based on Hassam's strategy reaching $25K MRR in 90 days by trading equity for instant distribution.
+metadata:
+  plugin: solo-builder
 ---
 
 # Partnership Distribution Playbook

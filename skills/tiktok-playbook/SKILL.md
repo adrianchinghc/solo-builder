@@ -1,6 +1,8 @@
 ---
-title: TikTok-First App Playbook
-description: Content-first mobile app strategy from Louis (GlowUp, $800K/year) and Steven (PuffCount, $1M+)
+name: tiktok-playbook
+description: Use when the user wants to grow via TikTok, create short-form video content, or use TikTok for app distribution. Based on Louis (GlowUp, $800K/year) and Steven (PuffCount, $1M+) content-first strategies.
+metadata:
+  plugin: solo-builder
 ---
 
 # TikTok-First App Playbook

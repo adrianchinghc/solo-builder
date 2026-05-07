@@ -1,0 +1,19 @@
+{
+  "name": "solo-builder-playbook",
+  "owner": {
+    "name": "Adrian Ching",
+    "url": "https://noverload.com"
+  },
+  "metadata": {
+    "description": "Growth playbooks and strategies from 19 founders who built apps to $10K-$200K+ MRR, plus Pieter Levels' indie maker methodology for bootstrapping to $1M+. Real tactics, real numbers, no theory.",
+    "version": "1.0.0",
+    "repository": "https://github.com/adrianchinghc/solo-builder-playbook-skill"
+  },
+  "plugins": [
+    {
+      "name": "solo-builder",
+      "description": "25 growth playbooks for solo builders and indie hackers — distribution, monetization, launch, automation, exit, and founder philosophy from real founders who reached $10K-$200K+ MRR",
+      "source": "./"
+    }
+  ]
+}

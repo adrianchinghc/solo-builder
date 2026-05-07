@@ -1,6 +1,8 @@
 ---
-title: When to Pivot
-description: How to know when to pivot vs persist, from founders who flopped and recovered
+name: pivot-playbook
+description: Use when the user is stuck, not growing, considering a pivot, or unsure whether to keep going with their current direction. Provides a signal-based framework to distinguish a bad product from a bad distribution strategy.
+metadata:
+  plugin: solo-builder
 ---
 
 # When to Pivot

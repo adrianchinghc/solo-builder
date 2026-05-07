@@ -1,6 +1,8 @@
 ---
-title: Open Source as Distribution
-description: Using open source to reach millions of developers, from Nevo (Postiz, $17K MRR, 5M+ downloads)
+name: open-source-playbook
+description: Use when the user is building an open source project or dev tool, or wants to use open source as a distribution strategy to reach developers. Based on Nevo's strategy growing Postiz to $17K MRR with 5M+ downloads.
+metadata:
+  plugin: solo-builder
 ---
 
 # Open Source as Distribution

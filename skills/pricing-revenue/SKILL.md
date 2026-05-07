@@ -1,6 +1,8 @@
 ---
-title: Pricing & Revenue Strategy
-description: Pricing models, revenue mechanics, and monetization patterns from 19 founders
+name: pricing-revenue
+description: Use when the user wants to figure out how to price their product, set up pricing tiers, choose between subscription and one-time pricing, or optimize for revenue. Based on pricing patterns from 19 founders.
+metadata:
+  plugin: solo-builder
 ---
 
 # Pricing & Revenue Strategy

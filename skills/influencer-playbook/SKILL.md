@@ -1,6 +1,8 @@
 ---
-title: Influencer Marketing Playbook
-description: Step-by-step influencer strategy from George (Wrestle AI, $17K MRR with $500 spend)
+name: influencer-playbook
+description: Use when the user wants to do influencer marketing, reach out to creators, or grow via YouTube or TikTok influencers. Based on George's strategy growing Wrestle AI to $17K MRR with a $500 influencer spend.
+metadata:
+  plugin: solo-builder
 ---
 
 # Influencer Marketing Playbook

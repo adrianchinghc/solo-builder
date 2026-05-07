@@ -1,6 +1,8 @@
 ---
-title: Lifetime Deal (LTD) Strategy
-description: Using lifetime deals to bootstrap capital and build a review army, from Mike ($200K MRR)
+name: ltd-strategy
+description: Use when the user is considering a lifetime deal, an AppSumo launch, or wants to generate runway quickly without VC. Based on Mike's strategy generating $100K runway via LTDs to fund building to $200K MRR.
+metadata:
+  plugin: solo-builder
 ---
 
 # Lifetime Deal (LTD) Strategy

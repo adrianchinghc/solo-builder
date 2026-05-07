@@ -1,6 +1,8 @@
 ---
-title: The Mobile App Playbook
-description: Content-first mobile app strategy combining Louis, George, Steven, and Connor's frameworks
+name: mobile-app-playbook
+description: Use when the user is building or growing a mobile or consumer app and wants a full growth playbook. Combines Louis, George, Steven, and Connor's frameworks for content-first mobile app distribution.
+metadata:
+  plugin: solo-builder
 ---
 
 # The Mobile App Playbook: Content-First to $10K+ MRR
