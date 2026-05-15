@@ -115,7 +115,7 @@ The advisor skill reads your `README.md`, `package.json`, and other project file
 |---|---|---|
 | **SaaS Metrics** | `/solo-builder:saas-metrics` | MRR, churn, LTV, CAC, cohort analysis, runway dashboards |
 | **Automation** | `/solo-builder:automate` | Cron jobs, Zapier, lean contractor model — remove yourself from operations |
-| **Exit & Acquisition** | `/solo-builder:exit` | Buyer types, valuation multiples, broker vs. direct |
+| **Exit & Acquisition** | `/solo-builder:exit-acquisition` | Buyer types, valuation multiples, broker vs. direct |
 
 ## The Founders
 

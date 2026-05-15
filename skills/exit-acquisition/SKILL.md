@@ -1,5 +1,5 @@
 ---
-name: exit
+name: exit-acquisition
 description: "Use this BEFORE advising on selling a product, evaluating an acquisition offer, or discussing exit valuation. Trigger: user mentions selling their company, acquisition, exit strategy, valuation multiples, Acquire.com, Flippa, or has received an offer."
 metadata:
   plugin: solo-builder

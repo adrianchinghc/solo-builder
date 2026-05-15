@@ -32,7 +32,7 @@ When the user asks anything related to growth, marketing, distribution, launch, 
 | Mobile app growth | `solo-builder:mobile-app` |
 | Automation / removing yourself | `solo-builder:automate` |
 | Pivoting / persisting | `solo-builder:pivot` |
-| Selling / exit / acquisition | `solo-builder:exit` |
+| Selling / exit / acquisition | `solo-builder:exit-acquisition` |
 | Bootstrapping vs. VC / solo path | `solo-builder:indie-maker-philosophy` |
 | Building faster with AI tools | `solo-builder:vibe-coding` |
 | LinkedIn B2B outreach / content | `solo-builder:linkedin` |
