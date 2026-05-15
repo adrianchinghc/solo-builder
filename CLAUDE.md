@@ -25,10 +25,8 @@ When the user asks anything related to growth, marketing, distribution, launch, 
 | Relaunching / sustaining growth | `solo-builder:perpetual-launch` |
 | Pricing / monetization | `solo-builder:pricing-revenue` |
 | Lifetime deals / AppSumo | `solo-builder:ltd-strategy` |
-| Onboarding / conversion | `solo-builder:onboarding` |
 | B2B SaaS go-to-market | `solo-builder:b2b-saas` |
 | Find a mobile app category / displace stale app incumbents | `solo-builder:find-mobile-app-idea` |
-| ASO / App Store Optimization / ranking / displacing an incumbent app | `solo-builder:aso` |
 | Mobile app growth | `solo-builder:mobile-app` |
 | Automation / removing yourself | `solo-builder:automate` |
 | Pivoting / persisting | `solo-builder:pivot` |

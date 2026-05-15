@@ -71,7 +71,6 @@ The advisor skill reads your `README.md`, `package.json`, and other project file
 | Skill | Command | What It Does |
 |---|---|---|
 | **Mobile App Growth** | `/solo-builder:mobile-app` | Content-first growth strategy for iOS/Android consumer apps |
-| **ASO** | `/solo-builder:aso` | Full App Store Optimization plan: keywords, listing assets, review velocity, launch sequence, policy compliance |
 
 ### Launch
 | Skill | Command | Founder Benchmark |
@@ -108,7 +107,6 @@ The advisor skill reads your `README.md`, `package.json`, and other project file
 |---|---|---|
 | **Pricing & Revenue** | `/solo-builder:pricing-revenue` | Pricing models from $0 to $200K MRR |
 | **Lifetime Deals** | `/solo-builder:ltd-strategy` | Mike: $100K runway from LTDs before scaling |
-| **Onboarding** | `/solo-builder:onboarding` | George & Connor's free-to-paid conversion formula |
 
 ### Operations & Metrics
 | Skill | Command | What It Covers |
