@@ -1,16 +1,16 @@
 # Solo Builder Playbook
 
-A Claude Code plugin with **25 namespaced growth skills** for solo builders and indie hackers, powered by real strategies from **19 founders** who built apps to **$10K-$200K+ MRR**. Extracted from [Starter Story](https://www.youtube.com/@starterstory) interviews (2025-2026).
+A Claude Code plugin with **31 namespaced growth skills** for solo builders and indie hackers, powered by real strategies from **19 founders** who built apps to **$10K-$200K+ MRR**. Extracted from [Starter Story](https://www.youtube.com/@starterstory) interviews (2025-2026).
 
 Install it and get founder-tested growth strategies tailored to your specific project — Claude reads your repo, understands what you're building, and delivers actionable advice with real founder citations.
 
 ## Install
 
 ```bash
-npx superpowers install github:adrianchinghc/solo-builder-playbook-skill
+npx superpowers install github:adrianchinghc/solo-builder
 ```
 
-Then restart Claude Code. All 25 skills are available under the `solo-builder` namespace.
+Then restart Claude Code. All 31 skills are available under the `solo-builder` namespace.
 
 ## Usage
 
@@ -22,17 +22,17 @@ Then restart Claude Code. All 25 skills are available under the `solo-builder` n
 
 ### Call a specific playbook directly
 
-> **You**: `/solo-builder:product-hunt-playbook`
+> **You**: `/solo-builder:product-hunt`
 >
 > **Claude**: *delivers the full Product Hunt launch playbook with timing, taglines, GIF strategy, and journalist trickle tactics*
 
-> **You**: `/solo-builder:reddit-playbook`
+> **You**: `/solo-builder:reddit`
 >
 > **Claude**: *pulls Roman's $0 to $34K MRR Reddit system — subreddit selection, post formats, rules for not getting banned*
 
 ### Request deliverables
 
-> **You**: `/solo-builder:reddit-playbook` Write me some posts to promote my app
+> **You**: `/solo-builder:reddit` Write me some posts to promote my app
 >
 > **Claude**: *reads your product details, drafts 3 Reddit posts tailored to relevant subreddits with the right tone*
 
@@ -59,49 +59,63 @@ The advisor skill reads your `README.md`, `package.json`, and other project file
 |---|---|---|
 | **Advisor** | `/solo-builder:advisor` | Diagnoses your situation, asks smart questions, routes to the right playbook |
 
+### Idea Pipeline
+| Skill | Command | What It Does |
+|---|---|---|
+| **Find SaaS Idea** | `/solo-builder:find-saas-idea` | Multi-phase research pipeline across 10 demand-signal sources; returns ranked shortlist with evidence |
+| **Find Mobile App Idea** | `/solo-builder:find-mobile-app-idea` | Category-displacement research for mobile; targets stale incumbents not updated in 18+ months |
+| **Validate SaaS Idea** | `/solo-builder:validate-saas-idea` | 60-90 min deep validation pass: competitors, demand, unit economics, first 100 customers, BUILD verdict |
+| **Scope MVP** | `/solo-builder:scope-mvp` | Converts a validated idea into a ruthlessly minimal 90-day build-and-launch plan |
+
+### Mobile
+| Skill | Command | What It Does |
+|---|---|---|
+| **Mobile App Growth** | `/solo-builder:mobile-app` | Content-first growth strategy for iOS/Android consumer apps |
+| **ASO** | `/solo-builder:aso` | Full App Store Optimization plan: keywords, listing assets, review velocity, launch sequence, policy compliance |
+
 ### Launch
 | Skill | Command | Founder Benchmark |
 |---|---|---|
-| **Product Hunt** | `/solo-builder:product-hunt-playbook` | 10K visitors + press trickle on launch day |
-| **Hacker News** | `/solo-builder:hacker-news-playbook` | 50K-100K visitors from a single Show HN |
-| **Press Outreach** | `/solo-builder:press-outreach-playbook` | 2-sentence pitch format that gets replies |
-| **Perpetual Launch** | `/solo-builder:perpetual-launch-playbook` | Every feature = a new launch moment |
+| **Product Hunt** | `/solo-builder:product-hunt` | 10K visitors + press trickle on launch day |
+| **Hacker News** | `/solo-builder:hacker-news` | 50K-100K visitors from a single Show HN |
+| **Press Outreach** | `/solo-builder:press` | 2-sentence pitch format that gets replies |
+| **Perpetual Launch** | `/solo-builder:perpetual-launch` | Every feature = a new launch moment |
 
 ### Growth Channels
 | Skill | Command | Founder Benchmark |
 |---|---|---|
 | **Distribution Strategy** | `/solo-builder:distribution-strategy` | Match channel to product type before building |
-| **Reddit** | `/solo-builder:reddit-playbook` | Roman: $0 → $34K MRR via Reddit alone |
-| **TikTok** | `/solo-builder:tiktok-playbook` | Louis: $0 → $800K/year via organic TikTok |
-| **Twitter/X** | `/solo-builder:twitter-playbook` | Tibo: $700K/month via build-in-public |
-| **Influencers** | `/solo-builder:influencer-playbook` | George: $17K MRR with $500 influencer spend |
-| **Partnerships** | `/solo-builder:partnership-playbook` | Hassam: $25K MRR in 48 hours via equity deals |
-| **SEO & Content** | `/solo-builder:seo-content-playbook` | Bhanu: 50K monthly clicks, $0 ad spend |
-| **Discord** | `/solo-builder:discord-playbook` | Sam: $14K MRR in 6 months via Discord |
-| **Open Source** | `/solo-builder:open-source-playbook` | Nevo: 5M downloads, $17K MRR |
+| **Reddit** | `/solo-builder:reddit` | Roman: $0 → $34K MRR via Reddit alone |
+| **TikTok** | `/solo-builder:tiktok` | Louis: $0 → $800K/year via organic TikTok |
+| **Twitter/X** | `/solo-builder:twitter` | Tibo: $700K/month via build-in-public |
+| **LinkedIn** | `/solo-builder:linkedin` | B2B outreach, lead gen, Sales Navigator, content strategy |
+| **Influencers** | `/solo-builder:influencers` | George: $17K MRR with $500 influencer spend |
+| **Partnerships** | `/solo-builder:partnerships` | Hassam: $25K MRR in 48 hours via equity deals |
+| **SEO & Content** | `/solo-builder:seo-content` | Bhanu: 50K monthly clicks, $0 ad spend |
+| **Discord** | `/solo-builder:discord` | Sam: $14K MRR in 6 months via Discord |
+| **Open Source** | `/solo-builder:open-source` | Nevo: 5M downloads, $17K MRR |
 
 ### Product & Strategy
 | Skill | Command | What It Covers |
 |---|---|---|
-| **Idea Selection** | `/solo-builder:idea-selection` | 4-filter test for ideas that can reach $10K MRR |
-| **Indie Maker Philosophy** | `/solo-builder:indie-maker-philosophy` | Pieter Levels' MAKE methodology for $1M+ solo |
-| **B2B SaaS Playbook** | `/solo-builder:b2b-saas-playbook` | Full playbook: idea to $100K MRR |
-| **Mobile App Playbook** | `/solo-builder:mobile-app-playbook` | Content-first strategy for iOS/Android |
+| **Indie Maker Philosophy** | `/solo-builder:indie-maker-philosophy` | Bootstrapping vs. VC, solo path to $1M+ |
+| **B2B SaaS** | `/solo-builder:b2b-saas` | Full playbook: idea to $100K MRR |
 | **Vibe Coding** | `/solo-builder:vibe-coding` | Ship faster with AI tools as a solo founder |
-| **When to Pivot** | `/solo-builder:pivot-playbook` | Signal detection: bad product vs. bad distribution |
+| **When to Pivot** | `/solo-builder:pivot` | Signal detection: bad product vs. bad distribution |
 
 ### Monetization
 | Skill | Command | Founder Benchmark |
 |---|---|---|
 | **Pricing & Revenue** | `/solo-builder:pricing-revenue` | Pricing models from $0 to $200K MRR |
 | **Lifetime Deals** | `/solo-builder:ltd-strategy` | Mike: $100K runway from LTDs before scaling |
-| **Onboarding** | `/solo-builder:onboarding-playbook` | George & Connor's free-to-paid conversion formula |
+| **Onboarding** | `/solo-builder:onboarding` | George & Connor's free-to-paid conversion formula |
 
-### Scaling & Exit
+### Operations & Metrics
 | Skill | Command | What It Covers |
 |---|---|---|
-| **Automation** | `/solo-builder:automation-playbook` | Build robots: cron jobs, Zapier, lean contractor model |
-| **Exit & Acquisition** | `/solo-builder:exit-acquisition-playbook` | Buyer types, valuation multiples, broker vs. direct |
+| **SaaS Metrics** | `/solo-builder:saas-metrics` | MRR, churn, LTV, CAC, cohort analysis, runway dashboards |
+| **Automation** | `/solo-builder:automate` | Cron jobs, Zapier, lean contractor model — remove yourself from operations |
+| **Exit & Acquisition** | `/solo-builder:exit` | Buyer types, valuation multiples, broker vs. direct |
 
 ## The Founders
 
