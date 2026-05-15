@@ -7,7 +7,7 @@ metadata:
 
 # Distribution Strategy: The #1 Thing That Matters
 
-**The single biggest finding from 19 founder interviews**: Distribution matters more than product. Every founder who grew fast solved distribution first -- often before writing a line of code.
+**The single biggest finding**: Distribution matters more than product. Every founder who grew fast solved distribution first -- often before writing a line of code.
 
 ## Channel Selection Matrix
 
@@ -28,8 +28,7 @@ metadata:
 
 ### Step 1: Where does your customer already hang out?
 
-> "Advertise the way you would love to be advertised to."
-> -- Roman, $34K MRR via Reddit
+Advertise the way you would love to be advertised to.
 
 - **Developers/technical users** → Reddit, Hacker News, open source, Discord
 - **Business owners/SaaS buyers** → Twitter/X, LinkedIn, Reddit (r/SaaS, r/indiehackers)
@@ -64,16 +63,15 @@ metadata:
 **$50K → $100K+ MRR** (scale):
 - Scale paid ads (if CAC:LTV works)
 - Hire for content/SEO
-- "Scale what works, kill what doesn't" (Tibo's rule)
+- Scale what works, kill what doesn't
 
 ## The Two-Channel Rule
 
-> "For each software, growth is pretty much about one or two acquisition channels. Those two channels, I'm going all in on them."
-> -- Tibo, $700K/month across 5 products
+For each product, growth is pretty much about one or two acquisition channels. Go all in on those two.
 
 Most founders find that 80%+ of their growth comes from just 1-2 channels. Try many early, but once you find what works, go ALL in. Don't spread across 5 channels at 20% effort each.
 
-## Channel Frequency (from 19 founders)
+## Channel Frequency
 
 | Channel | % of Founders Using |
 |---------|-------------------|

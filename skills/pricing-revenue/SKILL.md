@@ -11,27 +11,26 @@ metadata:
 
 | Model | Price Range | Best For | Example |
 |-------|-----------|----------|---------|
-| Monthly SaaS | $25-99/month | B2B tools | Tibo (Outrank $99/mo), Sam (Algrow $25-80/mo) |
-| Weekly subscription | $9.99/week | High-engagement mobile B2C | Louis (GlowUp) |
-| Annual + monthly | $9.99/mo or $39-59/yr | Mobile apps | George (Wrestle AI), Steven (PuffCount) |
-| Tiered (3 plans) | $29-199/month | B2B with clear value tiers | Roman (Goji Berry), Rob (SuperX $29/mo) |
-| Lifetime Deal → MRR | $59-100 LTD, then transition | Bootstrapping phase | Mike ($200K MRR) |
-| Freemium → Pro | Free tier + paid | Lead gen / SEO tools | Bhanu (SiteGPT) |
+| Monthly SaaS | $25-99/month | B2B tools | B2B content/SEO tools ($99/mo), growth tools ($25-80/mo) |
+| Weekly subscription | $9.99/week | High-engagement mobile B2C | High-frequency mobile fitness/lifestyle apps |
+| Annual + monthly | $9.99/mo or $39-59/yr | Mobile apps | Sports or habit-tracking mobile apps |
+| Tiered (3 plans) | $29-199/month | B2B with clear value tiers | Social media or LinkedIn tools ($29/mo entry) |
+| Lifetime Deal → MRR | $59-100 LTD, then transition | Bootstrapping phase | Products transitioning from LTD to subscription |
+| Freemium → Pro | Free tier + paid | Lead gen / SEO tools | AI chatbot or SEO tools using free tier as distribution |
 
 ## Pricing Insights
 
 ### Attach trial to annual plan
-> George: "We attach the trial to the yearly option."
-This maximizes LTV per converted user -- they start the trial on the most expensive plan.
+Attach the free trial to the yearly plan. This maximizes LTV per converted user — they start the trial on the most expensive plan.
 
-### Never give away free accounts (Mike's rule)
-> "If people pay for it, they'll use it. That's key. You want people using your product and telling you why it's crap."
+### Never give away free accounts
+If people pay for it, they'll use it. That's key — you want people using your product and telling you why it's crap.
 
-Exception: Nevo (Postiz) uses open source free tier as distribution, with paid cloud hosting.
+Exception: An open source free tier can work as distribution, with paid cloud hosting as the monetization layer.
 
 ### Hard paywalls vs. freemium
-- Hard paywall (Pushscroll, $30/year): Forces immediate conversion decision
-- Freemium (SiteGPT, Postiz): Lower conversion but wider reach
+- Hard paywall (e.g., $30/year): Forces immediate conversion decision
+- Freemium: Lower conversion but wider reach
 - Choose based on whether you need USERS (freemium) or REVENUE (hard paywall)
 
 ## Revenue Milestones (Realistic)
@@ -46,16 +45,14 @@ Exception: Nevo (Postiz) uses open source free tier as distribution, with paid c
 
 ## Key Metrics to Track
 
-From the founders' dashboards:
-
-| Metric | Good | Great | Source |
-|--------|------|-------|--------|
-| Trial-to-paid conversion | 13-20% | 30%+ | Eyal (PropGPT) |
-| Trial start rate | 30% | 48% | Rob (SuperX), Eyal |
-| Monthly churn | 10-19% | <10% | Nic (BlogToPin), Nevo (Postiz) |
-| Customer LTV | $200-500 | $1,000+ | Bhanu (SiteGPT: $1,700) |
-| Revenue per download | $1-2 | $3+ | Eyal (PropGPT: $3.30) |
-| Profit margins | 50-70% | 80-90% | Nevo (80%), Louis (90%) |
+| Metric | Good | Great |
+|--------|------|-------|
+| Trial-to-paid conversion | 13-20% | 30%+ |
+| Trial start rate | 30% | 48% |
+| Monthly churn | 10-19% | <10% |
+| Customer LTV | $200-500 | $1,000+ |
+| Revenue per download | $1-2 | $3+ |
+| Profit margins | 50-70% | 80-90% |
 
 ## The LTD Capital Hack
 
@@ -63,7 +60,7 @@ See `ltd-strategy.md` for the full lifetime deal playbook.
 
 ## When Something Isn't Converting
 
-From Eyal & Yahli (PropGPT):
+Diagnostic:
 - High trial rate (45%) + low trial-to-paid (13%) = **product problem**, not marketing problem
 - Stop all marketing spend
 - Rebuild based on analytics (track feature clicks, onboarding dropoff)

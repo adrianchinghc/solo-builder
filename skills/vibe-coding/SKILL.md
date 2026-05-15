@@ -7,17 +7,9 @@ metadata:
 
 # Vibe Coding: Building Apps Without a CS Degree
 
-**Sources**: Hassam ($25K MRR, Cursor, 48 hours), Sam ($14K MRR, ChatGPT → Cursor), Connor ($20K MRR, Claude Code, 14 days), George ($17K MRR, Rork), David ($12K MRR, AI tools)
-
 ## The Evidence
 
-5 of 19 successful founders had zero or minimal coding background. They built production apps with AI coding tools that generate real revenue.
-
-> "I literally don't know how to code at all. I truly believe that anyone can build a mobile app these days."
-> -- George, 18yo college freshman, $17K MRR
-
-> "AI tools have really closed the gap between idea and execution."
-> -- Hassam, $25K MRR in 90 days
+Founders with zero or minimal coding background have built production apps generating real revenue using AI coding tools.
 
 ## The Default Stack (2025-2026)
 
@@ -34,9 +26,7 @@ metadata:
 
 **Total infrastructure**: ~$100-400/month to run a $10K+ MRR business.
 
-## Hassam's 48-Hour Sprint
-
-How he built LaunchFast (Amazon research tool) from nothing to demo:
+## The 48-Hour Sprint
 
 | Hours | Activity |
 |-------|----------|
@@ -47,22 +37,17 @@ How he built LaunchFast (Amazon research tool) from nothing to demo:
 | 31-40 | Edge case testing, ensuring stability |
 | 41-48 | Final polish, prep demo, record video |
 
-**Result**: Sent demo to a coaching company with existing audience. Next day: "Quit your job. We're doing this full-time." $25K MRR within 90 days.
+## A Non-Technical Founder's Learning Path
 
-## Sam's Learning Path
-
-Evolution of a non-technical founder:
+Evolution from zero coding knowledge to a shipped product:
 
 1. **Started**: Described idea to ChatGPT voice mode, got code
 2. **First tool**: Copy-pasted code into Notepad (yes, Notepad)
 3. **Upgrade 1**: Discovered VS Code, still copy-pasting from ChatGPT
-4. **Upgrade 2**: Friend told him about Cursor ("raw dogging it in VS Code is dumb when Cursor exists")
+4. **Upgrade 2**: Switched to Cursor (raw dogging it in VS Code is dumb when Cursor exists)
 5. **First MVP**: Built in one week with Cursor, deployed on Heroku
 6. **First user**: Got an "application error" screen... but still used the core features
-7. **Result**: $14K MRR, 10,000 users in 6 months
-
-> "As long as what you're trying to solve works, I think you can ship anything."
-> -- Sam, on shipping a broken MVP
+7. **Lesson**: As long as what you're trying to solve works, you can ship anything
 
 ## Key Principles
 
@@ -70,18 +55,16 @@ Evolution of a non-technical founder:
 Every vibe coder who succeeded had deep understanding of their target user's pain. The code was the easy part.
 
 ### 2. Ship broken, fix fast
-Sam's first user got an error screen. George's API went down at launch. Both recovered and thrived. Shipping > perfection.
+First users getting error screens, APIs going down at launch — these happen and you recover. Shipping > perfection.
 
 ### 3. Know when to hire
-George: "The greatest ROI was hiring my developer from Pakistan for $250 on Fiverr" (for payments and auth integration). Vibe code the 80%, hire for the 20% you can't figure out.
+The greatest ROI often comes from hiring a developer for $250 on Fiverr for payments and auth integration. Vibe code the 80%, hire for the 20% you can't figure out.
 
 ### 4. Use AI as your advisor
-> "Anytime there was an issue with Expo, I would just copy the logs, throw the logs into ChatGPT. I had ChatGPT as my adviser."
-> -- George
+When you hit an issue, copy the error logs and throw them into ChatGPT or Claude. Use AI as your on-demand technical advisor throughout the build.
 
 ### 5. Expand past vibe coding at $5K MRR
-> "Vibe coding is great to release quickly and validate ideas, but once you start moving past $5K a month, you should start investing in product quality."
-> -- George
+Vibe coding is great to release quickly and validate ideas, but once you start moving past $5K a month, you should start investing in product quality.
 
 ## Common Vibe Coding Mistakes
 

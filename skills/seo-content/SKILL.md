@@ -1,0 +1,82 @@
+---
+name: seo-content
+description: "Use this BEFORE advising on SEO, content marketing, or organic search growth. Invoke before answering 'how do I rank on Google?', 'should I do content marketing?', or 'how do I get organic traffic?'"
+metadata:
+  plugin: solo-builder
+---
+
+# SEO & Content Playbook
+
+## Core Principle
+
+It is never, ever, ever, ever too early to start writing content. Content compounds — the earlier you publish, the longer Google, ChatGPT, and AI search tools index it. Start on day one.
+
+## Strategy 1: Competitor Comparison Pages
+
+Write these pages immediately:
+- "[Your Product] vs [Competitor]"
+- "Best [Competitor] alternatives in 2026"
+- "[Competitor] alternative for [specific use case]"
+
+These capture high-intent search traffic -- people actively looking for solutions.
+
+## Strategy 2: Engineering as Marketing
+
+Build free tools that rank on Google and funnel users to your main product.
+
+**The process**:
+1. Go to Ahrefs Keywords Explorer with blank search
+2. Add keyword filters relevant to your space (e.g., "AI" + "generator")
+3. Filter keyword difficulty: KD < 10 (easy to rank)
+4. Filter volume: minimum 1,000 monthly searches
+5. List keywords in Notion: volume, difficulty, relevance to your product
+6. Design CTA for each free tool that connects to your main product
+7. Prioritize: high volume + low KD + easy to build + highly relevant
+8. Build each tool in ~5 minutes with Cursor
+
+**Result**: 50+ free tools can drive 50,000+ monthly clicks from Google, with 90% of traffic coming from free tools.
+
+## Strategy 3: Become a Media Company
+
+At a certain point, your company needs a content engine:
+- Testimonials and case studies from successful users
+- Industry takes and thought leadership
+- Educational content about your problem space
+- "Content that fuels everything else you do"
+
+At a certain scale, your company needs to become a media company — producing content that compounds reach across every channel.
+
+## Strategy 4: AI-Optimized Documentation
+
+Good documentation is increasingly a key growth lever because AI assistants (ChatGPT, Claude, Perplexity) recommend products they can find good documentation for. Write clear, comprehensive docs.
+
+## Strategy 5: Open Source Content
+
+For developer-facing products:
+- Write articles on Dev.to, Medium, Hackernoon
+- "Top 10 open source [X]" listicles (targets Google Discover feed)
+- Submit to Hacker News as "Show HN"
+- Post on r/selfhosted, r/webdev, r/programming
+
+Open source + content can generate 5M+ downloads as a distribution strategy.
+
+## Content Prioritization
+
+| Content Type | SEO Value | Conversion Value | Effort |
+|-------------|-----------|-----------------|--------|
+| Competitor comparison pages | High | Very High | Low |
+| "Alternative to" pages | High | Very High | Low |
+| Free tools | Very High | High | Medium |
+| Blog posts / tutorials | Medium | Medium | Medium |
+| Case studies | Low | Very High | High |
+| Documentation | Medium | High | High |
+
+**Start with comparison and alternative pages. They take 1-2 hours each and capture buyers.**
+
+## Timeline
+
+- Month 1: Write 5-10 competitor comparison pages
+- Month 2-3: Build 3-5 free tools targeting low-KD keywords
+- Month 3-6: Weekly blog posts, case studies from users
+- Month 6+: Content compounds -- traffic grows without additional effort
+- Month 12+: SEO becomes largest acquisition channel

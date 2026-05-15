@@ -3,10 +3,10 @@
   "description": "Growth playbooks from 19 founders who built apps to $10K-$200K+ MRR. Real tactics, real numbers, no theory.",
   "version": "1.0.0",
   "author": {
-    "name": "Drew Thomas",
-    "url": "https://x.com/drewautomates"
+    "name": "Adrian Ching",
+    "url": "https://github.com/adrianchinghc"
   },
-  "homepage": "https://drewautomates.com",
-  "repository": "https://github.com/drewautomates/solo-builder-playbook-skill",
+  "homepage": "https://github.com/adrianchinghc",
+  "repository": "https://github.com/adrianchinghc/solo-builder",
   "license": "MIT"
 }

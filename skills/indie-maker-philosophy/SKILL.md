@@ -9,7 +9,7 @@ metadata:
 
 ## The Core Belief
 
-The Silicon Valley narrative is broken: raise VC → hire a big team → build in secret → launch → hope. Pieter Levels built Nomads.com, Remote OK, and Hoodmaps to $3M+/year in revenue, alone, working from hotels and cafes, while VC-funded teams of 30+ people building the same products failed. This is the alternative playbook.
+The Silicon Valley narrative is broken: raise VC → hire a big team → build in secret → launch → hope. A single indie builder can outrun a VC-funded team of 30+ by moving faster. This is the alternative playbook.
 
 The indie maker approach: **build something yourself, see if it works, make money, repeat.** No investors. No office. No permission. Just ship.
 
@@ -19,7 +19,7 @@ The indie maker approach: **build something yourself, see if it works, make mone
 
 The single most important idea in this entire philosophy: **find ideas by solving problems you actually have.**
 
-You are the greatest expert at your own problems. When Pieter built Nomads.com, he was a traveling nomad trying to figure out which cities had fast internet and low cost of living. He wasn't researching a market. He built a spreadsheet for himself. It accidentally became a business.
+You are the greatest expert at your own problems. When a founder builds for themselves, they already understand the problem deeply — no user interviews needed. A spreadsheet of 25 cities became a business. The founder wasn't researching a market — they built a tool for themselves, and it accidentally found an audience.
 
 **Why this beats market research:**
 - You already understand the problem deeply — you don't need to interview users
@@ -33,8 +33,7 @@ You are the greatest expert at your own problems. When Pieter built Nomads.com, 
 
 ## Ideas Are Worthless Without Execution
 
-> "To me, ideas are worth nothing unless executed. They are just a multiplier. Execution is worth millions."
-> — Derek Sivers
+Ideas are worth nothing unless executed. They are just a multiplier. Execution is worth millions.
 
 Don't protect your idea. Share it freely. If someone "steals" it, they'll execute it differently — 10 people with the same idea build 10 different companies. Your execution is what matters.
 
@@ -55,7 +54,7 @@ Every major company started tiny:
 - Facebook was a "Hot or Not" clone
 - Apple was a computer kit for amateur hackers
 - Google was a search tool for Stanford's intranet
-- Nomads.com was a spreadsheet of 25 cities
+- A spreadsheet of 25 cities became a full travel platform
 
 The pattern: **micro-niche → multi-niche → adjacent markets → platform**
 
@@ -93,9 +92,9 @@ Rules for shipping fast:
 
 ## DIY Beats Outsourcing (At the Start)
 
-Pieter competed against VC-funded teams of 30+ people and beat them. From a hotel room. Working in his underwear.
+A solo indie builder competing against VC-funded teams can win by moving faster.
 
-Why? Because he could fix a bug in 5 minutes over morning coffee. The VC team had to email a developer, schedule a meeting, wait for approval, then wait for the developer to actually do it. Days later, maybe.
+A solo founder can fix a bug in 5 minutes over morning coffee. The VC team has to email a developer, schedule a meeting, wait for approval, then wait for the developer to actually do it. Days later, maybe.
 
 **The compounding advantage:** 1,000 small improvements per year × faster cycle time = product that's orders of magnitude better than what a slow team ships.
 
@@ -139,7 +138,7 @@ Bootstrapping advantages:
 - **Less stress**: your goal is ramen profitability, not billion-dollar exit
 - **Speed**: one person who knows the whole codebase moves faster than a team with meetings
 
-The startup press tells you you need VC. But Pieter's Nomads.com, Plenty of Fish ($575M exit — built by one person), and Basecamp ($168M revenue) were all bootstrapped. Revenue-generating bootstrapped businesses attract investors when they actually need them — but by then, you don't.
+The startup press tells you you need VC. But Plenty of Fish ($575M exit — built by one person) and Basecamp ($168M revenue) were bootstrapped, as are countless other profitable indie businesses. Revenue-generating bootstrapped businesses attract investors when they actually need them — but by then, you don't.
 
 ---
 
@@ -157,7 +156,7 @@ The startup press tells you you need VC. But Pieter's Nomads.com, Plenty of Fish
 
 ## The Portfolio Approach: Keep Shipping
 
-Pieter ran 12 startups in 12 months. Most failed. A few succeeded enormously. This is not a failure rate — it's a strategy.
+Shipping 10–30 products over 1–3 years before a breakout is normal. Most fail. A few succeed enormously. This is not a failure rate — it's a strategy.
 
 You will probably need to ship 10–30 products over 1–3 years before something breaks through. The ones who succeed aren't smarter — they just shipped more and failed faster.
 

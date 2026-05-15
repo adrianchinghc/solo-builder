@@ -7,8 +7,6 @@ metadata:
 
 # Lifetime Deal (LTD) Strategy
 
-**Source**: Mike ($200K MRR across 5 SaaS apps)
-
 ## Why LTDs
 
 LTDs are NOT a business model. They are a **bootstrapping capital strategy**.
@@ -21,7 +19,7 @@ The goal: raise $50-100K+ in cash to fund content production and survive until M
 - Price: $59-100 one-time payment
 - Where: Reddit groups, Facebook groups, X/Twitter, LTD communities
 - Do as much work as possible to sell privately
-- Frill (one of Mike's apps) raised ~$30K from private LTD alone
+- A private LTD can raise ~$30K alone
 
 ### Phase 2: AppSumo Launch (~$50-70K)
 - AppSumo has massive reach and a huge buyer database
@@ -46,8 +44,7 @@ After your LTD phase, ask LTD customers to write reviews on:
 - Capterra
 - Google
 
-> "LTD community are willing to do that because they really, really want you to succeed. They're your early ambassadors."
-> -- Mike
+LTD users are willing to write reviews because they really, really want you to succeed. They're your early ambassadors.
 
 LTD users are inherently invested -- they've paid forever, so they want the product to thrive. They'll:
 - Write detailed reviews
