@@ -14,11 +14,33 @@ A find-saas-idea output is a hypothesis. Validation is the deeper pass that trie
 
 Most validation passes fail because they ask "is there a market?" The correct question is "*who specifically* would buy this in week one, *where* are they, and *what specifically* are they paying for it today?" If those three questions can't be answered with named entities and citations, the idea is not validated.
 
+## Mobile app context
+
+When validating a **mobile app** idea (iOS/Android), this skill applies with the following additions baked into each phase:
+
+**ASO difficulty replaces SEO as the distribution filter.** Distribution filter #2 (reachability) must name an ASO channel — a specific keyword cluster with winnable difficulty score, or a named community/social channel that demonstrably drives app installs. "Apple Search Ads on [keyword cluster] with estimated CPI of $X" passes. "Run paid ads" still fails the filter.
+
+**Platform policy risk is a required validation dimension.** Before issuing a BUILD verdict, verify the core mechanic is not banned or restricted by App Store Review Guidelines §3.1 (subscriptions, IAP) or §5.1 (data collection, sign-up walls). A validated idea that gets rejected on submission is wasted build time. Add this as an explicit check in Phase 5 (risks).
+
+**Revenue cut changes gross margin defaults.** Apple and Google take 30% of subscription revenue in year 1, dropping to 15% after 12 months of continuous paid subscription (Apple Small Business Program also offers 15% for developers earning <$1M/year — verify current eligibility at developer.apple.com/app-store/small-business-program/). For Phase 3 unit economics, override the default gross margin:
+- Mobile subscription app: **65-70%** (30% store cut + 1-3% payment processing)
+- Mobile app where users pay on the web (B2B SaaS with thin mobile client): 80-90% applies normally
+- AI-heavy mobile app: subtract inference cost on top (estimate $0.50-3.00/user/month for moderate AI use; verify against actual API pricing)
+
+**IAP vs. external payment distinction.** For digital goods and subscriptions consumed within the app, Apple and Google require in-app purchase (IAP) — you cannot link to an external checkout from within an iOS or Android app for in-app consumables. Exception: if the app is a thin client for a web service and the subscription is sold on the web (not in-app), external payment is allowed. Clarify which model applies before modeling unit economics — this determines margin and App Review risk.
+
+**Mobile CAC channels differ from B2B cold outreach.** The cold outreach CAC defaults from Phase 3 ($50-150/customer) apply only if distribution is non-app (e.g., web SaaS). For app-store-native distribution:
+- Apple Search Ads (ASA): CPI varies widely by category — $1-5 for casual games, $10-40 for utility apps, $40-150 for B2B productivity. Use AppTweak suggested-bid estimates as a proxy; say "verify with live ASA campaign data."
+- Google App Campaigns: similar range; tends to be lower CPI than ASA for equivalent categories
+- Organic ASO: effectively $0 CPI once ranked, but requires 4-12 weeks to achieve meaningful rank
+
+**Store submission latency in timeline.** App Review typically takes 1-3 days (iOS) and 1-7 days (Android) per submission. Factor at least one rejection-and-resubmission cycle into any launch timeline. This affects the kill criteria timeline for "if we haven't launched by [date]" scenarios.
+
 ## When to invoke
 
-Trigger phrases: "validate this idea," "is this idea good," "pressure test this concept," "should I build this," "check the market for [idea]," "what do you think of this idea: [pitch]." Also invoke automatically as the next step after `find-saas-idea` produces a ranked shortlist and the user picks one.
+Trigger phrases: "validate this idea," "is this idea good," "pressure test this concept," "should I build this," "check the market for [idea]," "what do you think of this idea: [pitch]." Also invoke automatically as the next step after `find-saas-idea` or `find-mobile-app-idea` produces a ranked shortlist and the user picks one.
 
-Do NOT invoke when the user is still in idea-exploration mode (no specific candidate) — that's `find-saas-idea`. Do NOT invoke after validation has produced a build recommendation and the user wants implementation — that's `scope-mvp`.
+Do NOT invoke when the user is still in idea-exploration mode (no specific candidate) — that's `find-saas-idea` or `find-mobile-app-idea`. Do NOT invoke after validation has produced a build recommendation and the user wants implementation — that's `scope-mvp`.
 
 ## Inputs required before starting
 
@@ -46,6 +68,8 @@ For each named competitor, capture: name, URL, pricing (public price points only
 
 If you cannot find 3+ named competitors or generic-tool incumbents in 30 minutes of search, the market is either too new (validate demand more aggressively) or non-existent (kill the idea).
 
+**Mobile apps — additional competitor profiling:** For mobile app ideas, profile competitors via iTunes Search API and google-play-scraper (see `find-mobile-app-idea/references/data-sources.md` for endpoints). Capture each incumbent's last update date. Apps not updated in 18+ months are the displacement target; apps actively maintained are the real competition. A top-3 with mixed staleness (1 active, 2 stale) requires a plan to beat the active competitor — not just the zombies.
+
 ### Phase 2: Demand evidence
 
 Re-run a focused version of the find-saas-idea signal stack against this specific idea. You're looking for:
@@ -65,7 +89,7 @@ Build a 12-month projection with realistic numbers. Use these defaults unless th
 
 - **CAC**: For cold outreach to SMB, assume $50-150 fully-loaded. For paid acquisition, assume $200-800. For marketplace listings, assume $30-100 once ranked.
 - **ARPU**: From the user's pricing hypothesis. Reality-check against named competitors.
-- **Gross margin**: 80-90% for pure SaaS; lower if AI inference is a unit cost (model that explicitly — e.g., $0.50-2.00/user/month in inference costs for moderate AI usage).
+- **Gross margin**: 80-90% for pure SaaS; lower if AI inference is a unit cost (model that explicitly — e.g., $0.50-2.00/user/month in inference costs for moderate AI usage). **Mobile gross margin override:** For mobile subscription apps distributed via App Store or Google Play, use **65-70%** as the gross margin default (30% store cut year 1, or 15% after 12 continuous months / small developer program + 1-3% payment processing). For mobile apps where the subscription is sold on the web (not in-app), 80-90% applies. For AI-heavy mobile apps, subtract inference cost on top of the store cut.
 - **Churn**: Assume 5-8% monthly for SMB without proven retention, 2-4% for established niches with high switching cost.
 - **Sales cycle**: 0-14 days for self-serve <$50/mo, 14-45 days for $50-500/mo with human touch, 45-90+ days for $500+/mo.
 
@@ -102,6 +126,8 @@ Standard risks to evaluate:
 - **Regulatory risk** — compliance burden you missed
 - **Market size risk** — TAM is too small for $10K MRR even at 100% capture
 - **Founder-market fit risk** — you can't credibly speak to the buyer
+- **App Store rejection risk** *(mobile apps only)* — core mechanic conflicts with App Store Review Guidelines §3.1.2 (subscription clarity), §5.1.1(v) (sign-up wall prohibition), or emerging AI content disclosure requirements. Kill criterion: "If initial submission is rejected and the fix requires changing the core monetization mechanic or removing the onboarding gate, re-evaluate the entire model before rebuilding."
+- **Platform native-feature risk** *(mobile apps only)* — Apple or Google ships a native OS equivalent of your core feature (see `aso/references/platform-policy-risk.md` — Strategic risk section). Kill criterion: "If announced at WWDC or Google I/O before our launch date, evaluate differentiator survival within 2 weeks. If we cannot articulate a specific capability the native version will not have, treat as DON'T BUILD."
 
 Honest kill criteria look like: "If after sending 200 cold emails over 3 weeks we haven't booked 10 discovery calls, the distribution hypothesis is dead." Not "if it doesn't work, we'll pivot."
 
