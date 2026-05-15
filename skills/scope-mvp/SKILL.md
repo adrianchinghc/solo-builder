@@ -14,6 +14,18 @@ An MVP is a hypothesis-test, not a small version of the eventual product. Its on
 
 For a 90-day revenue target, the most common scoping failure is *sequential thinking* — build for 90 days, then launch. The correct approach is *parallel execution*: build and distribution start on day 1, the first cold email goes out before the first feature ships, the first pricing conversation happens before the first user signs up.
 
+## Mobile app context
+
+When scoping a **mobile app MVP** (iOS/Android), all seven components apply with these overrides:
+
+**Distribution track starts with ASO, not cold email.** The Week 1 distribution track must include: TestFlight beta recruitment (target 50-100 users from personal network + 1-2 category-specific communities), keyword metadata finalized, screenshots and preview video drafted. The app must be submittable to stores by end of Week 3 to survive App Review latency and still launch in the Week 5-6 window.
+
+**App Review latency is a hard constraint, not a risk.** First submissions typically take 1-3 days (App Store) and 1-7 days (Play Store). Plan at minimum one rejection-and-resubmission cycle: first submission Week 3, buffer for fix + resubmit, hard launch Week 5. Never schedule a community announcement for the same day as first submission. Any timeline that has "submit and launch same week" is wrong.
+
+**Invoke `aso` immediately after this skill.** After producing the 7-component plan, the next step is `aso` — not starting to build. The ASO plan (keyword strategy, listing assets, launch sequence) must be complete before the first line of code is written, because the app name and description affect marketing from day 1 and are painful to change after launch.
+
+**Parallel track difference.** For web SaaS, distribution runs concurrently with build starting Week 1 (cold emails, community participation). For mobile, Week 1-3 are build-dominated; distribution ramp starts Week 3 (beta recruitment, store submission) with full distribution launch at Week 5-6 (public launch + paid ASO, community posts). This is not sequential thinking — it's accounting for App Review as a fixed latency that cannot be compressed.
+
 ## When to invoke
 
 Trigger phrases: "scope the MVP," "build plan for this idea," "what should I build first," "90-day plan for this," "PRD for [validated idea]," "design the MVP for [idea]." Also invoke automatically as the next step after `validate-saas-idea` produces a BUILD verdict.
@@ -82,6 +94,15 @@ Write two lists.
 - No analytics dashboard — use Plausible / PostHog hosted
 - No marketing site beyond a single landing page
 
+**Additional cut rules for mobile apps:**
+- No background location or always-on microphone unless location/audio IS the core product — these trigger privacy review and can slow or block App Review
+- No deep linking / universal links in MVP — add after core loop is validated
+- No push notification personalization — ship one default notification message until retention data justifies complexity
+- No Android widgets or iOS Live Activities / Dynamic Island integrations in MVP — compelling in demos, 2-4× the build time of a regular feature
+- No Apple Watch or iPad-specific UI in MVP unless watchOS/iPadOS is the primary platform
+- No web companion app unless cross-device is the core JTBD — maintain focus on the single platform
+- Review request flow (SKStoreReviewController / Play In-App Review API) is NOT optional — it must be in the MVP; launching without it is 90 days of lost review velocity
+
 **Build estimate:** For each MVP feature, estimate hours (with AI tooling). Sum. If total exceeds 200 hours (≈5 weeks of focused solo work), cut more. The MVP must ship in <6 weeks to leave time for distribution and iteration inside 90 days.
 
 ### Component 4: 90-day timeline with parallel tracks
@@ -104,6 +125,19 @@ Template:
 | 10-12 | Retention features. Annual billing option. | Referral incentive. Case studies. | 50 paying customers / $5K MRR |
 
 Customize this template to the specific idea. The point is: every week has parallel build + distribution activity, and every week has a measurable milestone.
+
+**Mobile app timeline override:** The cold-email + demo-call distribution track above is for web SaaS. For mobile apps, replace with this template:
+
+| Week | Build | Distribution | Milestones |
+|------|-------|--------------|------------|
+| 1 | Foundation: React Native/Expo scaffold, auth (Clerk/Supabase), RevenueCat IAP config, Crashlytics. | Finalize ASO keyword list. Draft all screenshot headlines. Recruit TestFlight beta list (target 50 users). | Keywords locked; beta list seeded |
+| 2 | Core feature 1. Onboarding flow v1. | Write app description (first 3 lines + full). Brief designer on icon directions A/B/C. | Description approved; icon v1 in review |
+| 3 | Core feature 2. Review request flow integrated. | Submit to TestFlight / Internal Testing (Android). Beta onboarding begins. Submit to App Review (iOS) + Play Review (Android). | First beta users active; store submissions in review |
+| 4 | Polish + bug fixes from beta. Core feature 3. Paywall and subscription flow. | App Review buffer (plan for rejection + resubmit). Final screenshots produced. | App Review cleared; resubmit if needed |
+| 5 | Public-ready release. | Public launch: community posts, Product Hunt (if relevant), personal network push. First review request prompts firing. | Launch day; first organic reviews |
+| 6 | Week-8 update feature scoped and started. | Apple Search Ads exact-match long-tail campaign live ($500 cap). Respond to all reviews. | 20+ reviews; CPI data starting to appear |
+| 7-9 | Ship week-8 update (freshness signal). Iterate on top beta feedback. | Double down on organic-surfacing keywords from App Analytics. Adjust ASA bids based on CPI data. | 50+ reviews; keyword rank movement visible |
+| 10-12 | Retention features. Annual subscription option. | Week-12 update shipped. Referral prompt in post-purchase flow. | 100+ reviews; targeting top-5 for long-tail keywords |
 
 ### Component 5: Unit economics & revenue target
 
@@ -153,6 +187,35 @@ Default stack for fastest 90-day ship with AI tooling:
 **Build approach for solo founder + AI tooling:** Specify build mode — Claude Code / Cursor / Lovable / v0. For each feature in scope, note which tool will likely produce the first draft.
 
 **Do not change the stack to satisfy curiosity.** "Let me try Rust" or "what if Bun" costs days. Pick boring and ship.
+
+#### Mobile tech stack overrides
+
+When building a native or cross-platform mobile app, replace the default web stack with the following:
+
+**Framework decision (pick one, don't debate):**
+- **React Native (Expo managed workflow) — recommended for solo AI-build-fluent founder.** Expo's managed workflow removes almost all native configuration overhead. Use Expo Router for navigation (file-based, same mental model as Next.js). Claude Code and Cursor generate RN/Expo code well. Android-first + iOS in the same codebase.
+- **Flutter (Dart) — alternative.** Better performance for complex animations and graphics-heavy apps. Slightly higher AI codegen friction (Dart is less represented in training data than TypeScript). Choose if the app requires custom animations, games-adjacent UI, or if you have Flutter experience.
+- **Native iOS/Android (Swift/Kotlin) — avoid unless required.** Double the codebase, double the maintenance. Only if the app requires hardware capabilities not exposed by RN/Flutter, or if category-leading UX requires native rendering at 120fps. Adds 40-60% build time minimum.
+
+**Mobile-specific services:**
+
+| Category | Tool | Price | Notes |
+|----------|------|-------|-------|
+| Subscriptions + IAP | **RevenueCat** | Free up to $2,500 MRR; ~$119/mo after | Non-negotiable for any subscription mobile app. Handles App Store + Play Store IAP, trial management, entitlements, webhook events. Replaces custom subscription management entirely. Verify at revenuecat.com/pricing. |
+| Alternative to RevenueCat | Adapty | Free up to $1K MRR; cheaper after | Similar feature set; sometimes cheaper at scale. Verify at adapty.io/pricing. |
+| Auth | Clerk (Expo SDK) | Free up to 10K MAU | Best Expo integration. OR Supabase Auth (built in if using Supabase backend). |
+| Push notifications | Expo Notifications | Free | Wraps APNs (iOS) and FCM (Android). Upgrade to OneSignal if you need audience segmentation. |
+| Backend | Supabase | Free tier generous | Postgres + Auth + Storage + Realtime. Works well with Expo. |
+| Mobile analytics | Amplitude | Free up to 10M events/mo | Behavioral analytics, cohort retention analysis. OR PostHog (free self-hosted). |
+| Crash monitoring | Firebase Crashlytics | Free | Integrate in first build, not after launch. `npx expo install expo-firebase-analytics` |
+| CI/CD + store submission | EAS Build (Expo) | Free tier; $99/mo for higher concurrency | Builds and submits to both stores from CI. Required for consistent production builds. |
+
+**Backend (if needed):** Supabase (Postgres + Auth + Storage + Realtime). Works well with Expo. For simpler apps (no server-side logic, local-first), SQLite via expo-sqlite is sufficient.
+
+**What NOT to add to the mobile stack:**
+- Do not add a custom push notification server — use Expo Notifications or OneSignal
+- Do not self-host RevenueCat — use their hosted service; it's not worth the operational burden
+- Do not add a web companion app in the MVP — maintain single-platform focus
 
 ## Output structure
 
