@@ -33,3 +33,5 @@ When the user asks anything related to growth, marketing, distribution, launch, 
 | Selling / exit / acquisition | `solo-builder:exit` |
 | Bootstrapping vs. VC / solo path | `solo-builder:indie-maker-philosophy` |
 | Building faster with AI tools | `solo-builder:vibe-coding` |
+| LinkedIn B2B outreach / content | `solo-builder:linkedin` |
+| SaaS metrics / dashboards / churn / LTV | `solo-builder:saas-metrics` |

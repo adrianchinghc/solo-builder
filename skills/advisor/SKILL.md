@@ -59,7 +59,7 @@ Based on detected context and user answers, invoke the RIGHT sub-skill(s) using 
 
 | Product Type | Primary Skills | Supporting Skills |
 |---|---|---|
-| B2B SaaS | `solo-builder:b2b-saas`, `solo-builder:reddit` | `solo-builder:pricing-revenue`, `solo-builder:seo-content`, `solo-builder:onboarding`, `solo-builder:press` |
+| B2B SaaS | `solo-builder:b2b-saas`, `solo-builder:reddit` | `solo-builder:pricing-revenue`, `solo-builder:seo-content`, `solo-builder:onboarding`, `solo-builder:press`, `solo-builder:linkedin`, `solo-builder:saas-metrics` |
 | Mobile / B2C App | `solo-builder:mobile-app`, `solo-builder:tiktok` | `solo-builder:influencers`, `solo-builder:pricing-revenue`, `solo-builder:product-hunt` |
 | Dev Tool / CLI | `solo-builder:open-source`, `solo-builder:reddit` | `solo-builder:twitter`, `solo-builder:partnerships`, `solo-builder:hacker-news` |
 | Browser Extension | `solo-builder:seo-content`, `solo-builder:reddit` | `solo-builder:distribution-strategy`, `solo-builder:pricing-revenue`, `solo-builder:product-hunt` |
@@ -76,8 +76,8 @@ Based on detected context and user answers, invoke the RIGHT sub-skill(s) using 
 | Pre-launch | `solo-builder:distribution-strategy`, `solo-builder:vibe-coding`, `solo-builder:product-hunt`, `solo-builder:hacker-news` | Ship fast. Prep your launch. Pick ONE channel. Get 10 users manually. |
 | First Launch | `solo-builder:product-hunt`, `solo-builder:hacker-news`, `solo-builder:press` | Make a splash. Launch everywhere at once. Capture emails. |
 | Launched (< $1K MRR) | Channel-specific skill based on product type | Double down on what's working. Manual outreach is fine. |
-| Growing ($1K-$10K) | `solo-builder:pricing-revenue`, `solo-builder:onboarding`, `solo-builder:perpetual-launch` | Optimize conversion. Reduce churn. Keep relaunching. |
-| Scaling ($10K+) | `solo-builder:seo-content`, `solo-builder:partnerships`, `solo-builder:automate` | Add compounding channels. Build robots. Build moats. |
+| Growing ($1K-$10K) | `solo-builder:pricing-revenue`, `solo-builder:onboarding`, `solo-builder:perpetual-launch`, `solo-builder:saas-metrics` | Optimize conversion. Reduce churn. Track the right metrics. Keep relaunching. |
+| Scaling ($10K+) | `solo-builder:seo-content`, `solo-builder:partnerships`, `solo-builder:automate`, `solo-builder:saas-metrics` | Add compounding channels. Build robots. Build moats. Know your unit economics. |
 | Mature / Profitable | `solo-builder:automate`, `solo-builder:exit` | Remove yourself from operations. Know your exit options. |
 | Stuck / Plateau | `solo-builder:pivot`, `solo-builder:perpetual-launch` | Honest signal assessment. Relaunch or pivot. |
 
@@ -102,6 +102,10 @@ Based on detected context and user answers, invoke the RIGHT sub-skill(s) using 
 | "How do I sell my company?" | `solo-builder:exit` |
 | "I got an acquisition offer — what do I do?" | `solo-builder:exit` |
 | "How do I keep growing after launch?" | `solo-builder:perpetual-launch` |
+| "How do I use LinkedIn to get customers?" | `solo-builder:linkedin` |
+| "What metrics should I track?" | `solo-builder:saas-metrics` |
+| "Is my churn too high?" | `solo-builder:saas-metrics` |
+| "How do I calculate LTV or CAC?" | `solo-builder:saas-metrics` |
 | "What is side project marketing?" | `solo-builder:perpetual-launch` |
 | "I want to build to $1M" | `solo-builder:indie-maker-philosophy`, `solo-builder:distribution-strategy`, `solo-builder:pricing-revenue`, `solo-builder:automate` |
 
