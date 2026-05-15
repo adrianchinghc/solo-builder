@@ -174,6 +174,20 @@ If the competing-platform term is growing while the app term is declining, platf
 
 ---
 
+## App store category traffic proxies
+
+Apple and Google do not publish category-level traffic numbers. Use these proxies instead.
+
+**Keyword search volume (primary proxy):** Use AppTweak or ASOMobile to pull estimated monthly search volume for the 3-5 primary keywords in the category. Sum them for a rough category-level volume estimate. Limitation: keyword tools estimate, not measure — treat as directional, not precise.
+
+**Subcategory top-chart churn:** Check the top-25 chart in the relevant subcategory over the past 6 months. If the same apps have occupied the top spots for 12+ months without new entrants, the category is either very stable (good for established players) or calcified (good for a fresh challenger if incumbents are also stale). If new apps have entered the top-10 in the past 6 months, the category is alive and competitive.
+
+**Review velocity trend:** Look at the monthly review count for the top-3 incumbents over the past 12 months. If review volume is declining (fewer new reviews per month), it signals declining engagement even if the app still ranks. AppFollow and AppBot (both have free tiers) can chart review volume over time.
+
+**Downloads trend (Trap A support):** If you have access to AppMagic or AppFigures, check total category downloads over 12 months. A >20% decline in category-level downloads over 12 months reinforces Trap A (rotting-incumbent) — note this as additional evidence when documenting the trap check result.
+
+---
+
 ## Reddit and community signals — platform-migration check
 
 Used in Phase 3 (Trap Check B). These searches surface whether users have shifted behavior away from apps in a given category.
